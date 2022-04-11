@@ -9,9 +9,9 @@ void setup()
   String landscape = "You are good to go!";
   String portrait = "Bruh, turn your phone!";
   String displayOrientation = ( width >= height ) ? landscape : portrait ;
-  if ( width < height ) println ( displayOrientation ); //Portrait Display Orientation
-  if ( width >= height ) appWidth = displayWidth; //option diplayWidth
-  if ( width >= height ) appHeight = displayHeight; //option displayHeight
+  if ( displayOrientation==portrait ) println ( displayOrientation ); //Portrait Display Orientation
+  if ( displayOrientation==landscape ) appWidth = displayWidth; //option diplayWidth
+  if ( displayOrientation==landscape ) appHeight = displayHeight; //option displayHeight
 }//End setup
 //
 void draw() 
