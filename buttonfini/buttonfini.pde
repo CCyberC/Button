@@ -5,16 +5,10 @@ float quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight;
 void setup() 
 {
   fullScreen(); // teacher is using size (400, 300);
-  //Landscape, not portrait nor square
-  String landscape = "You are good to go!";
-  String portrait = "Bruh, turn your phone!";
-  String displayOrientation = ( displayWidth >= displayHeight ) ? landscape : portrait ;
-  if ( displayOrientation==portrait ) println ( displayOrientation ); //Portrait Display Orientation
-  if ( displayOrientation==landscape ) appWidth = displayWidth; //option diplayWidth
-  if ( displayOrientation==landscape ) appHeight = displayHeight; //option displayHeight
-  println (appWidth, appHeight); //Will be NULL if portrait ... until landscape (future lesson)
+  displayOrientation();
   //
   //Note: Variables similar to Face Rect() on Measles
+  int canvasCenter = smallerDisplayDimension*1/2;
   quitButtonX = ;
   quitButtonY = ;
   quitButtonWidth = appWidth*1/2;
