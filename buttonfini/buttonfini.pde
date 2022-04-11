@@ -1,6 +1,6 @@
 //Global Variables
+int appWidth, appHeight;
 float quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight;
-//appWidth, appHeight;
 //
 void setup() 
 {
