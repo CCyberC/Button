@@ -7,9 +7,9 @@ void setup()
   fullScreen(); // teacher is using size (400, 300);
   //Landscape, not portrait nor square
   String displayOrientation = ( width >= height ) ? "You are good to go!" : "bruh, turn your phone" ;
-  println ( displayOrientation );
-  appWidth = ;
-  appHeight = ;
+  if ( width < height ) println ( displayOrientation ); //Portrait Display Orientation
+  //appWidth = ;
+  //appHeight = ;
 }//End setup
 //
 void draw() 
