@@ -8,8 +8,8 @@ void setup()
   //Landscape, not portrait nor square
   String displayOrientation = ( width >= height ) ? "You are good to go!" : "Bruh, turn your phone" ;
   if ( width < height ) println ( displayOrientation ); //Portrait Display Orientation
-  //appWidth = ;
-  //appHeight = ;
+  if ( width >= height ) appWidth = displayWidth; //option diplayWidth
+  if ( width >= height ) appHeight = displayHeight; //option displayHeight
 }//End setup
 //
 void draw() 
