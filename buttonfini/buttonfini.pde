@@ -1,7 +1,7 @@
 //Global Variables
 int appWidth, appHeight;
 float quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight;
-color grey, red, whiteReset, buttonColour;
+color grey=#5F5F5F, red=, whiteReset, buttonColour; //Notice nightMode Blue Values
 //
 void setup() 
 {
