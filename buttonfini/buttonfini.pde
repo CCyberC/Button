@@ -13,6 +13,12 @@ void setup()
   if ( displayOrientation==landscape ) appWidth = displayWidth; //option diplayWidth
   if ( displayOrientation==landscape ) appHeight = displayHeight; //option displayHeight
   println (appWidth, appHeight); //Will be NULL if portrait ... until landscape (future lesson)
+  //
+  //Note: Variables similar to Face Rect() on Measles
+  quitButtonX = ;
+  quitButtonY = ;
+  quitButtonWidth = appWidth*1/2;
+  quitButtonHeight = appHeight*1/2;
 }//End setup
 //
 void draw() 
