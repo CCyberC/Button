@@ -9,8 +9,8 @@ void setup()
   //
   //Note: Variables similar to Face Rect() on Measles
   int canvasCenter = smallerDisplayDimension*1/2;
-  quitButtonX = ;
-  quitButtonY = ;
+  quitButtonX = (appWidth*1/2) ;
+  quitButtonY = canvasCenter;
   quitButtonWidth = appWidth*1/2;
   quitButtonHeight = appHeight*1/2;
 }//End setup
