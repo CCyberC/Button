@@ -1,7 +1,7 @@
 //Global Variables
 int appWidth, appHeight;
 float quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight;
-color grey=#5F5F5F, red=, whiteReset, buttonColour; //Notice nightMode Blue Values
+color grey=#B7B7B7, blue=#E0F6FC, whiteReset=#FFFFFF, buttonColour; //Notice nightMode Blue Values
 //
 void setup() 
 {
@@ -19,7 +19,7 @@ void setup()
 //
 void draw() 
 {
-  buttonColour = grey; //red
+  buttonColour = grey; //blue
   fill(buttonColour);
   rect( quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight );
   fill(whiteReset);
