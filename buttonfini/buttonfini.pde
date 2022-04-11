@@ -8,7 +8,8 @@ void draw() {
 //
 void keyPressed() 
 {
-  exit();
+  //Quit KeyBoard Button
+  if ( key=='Q' || key=='q' ) exit();//KeyBoard is separated on key-Variables: key & keyCode
 }//End keyPressed
 //
 void mousePressed() {
