@@ -1,7 +1,7 @@
 //Global Variables
 int appWidth, appHeight;
 float quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight;
-color grey=#B7B7B7, blue=#E0F6FC, whiteReset=#FFFFFF, buttonColour; //Notice nightMode Blue Values
+color red=#B43C00, blue=#E0F6FC, whiteReset=#FFFFFF, buttonColour; //Notice nightMode Blue Values
 //
 void setup() 
 {
@@ -19,7 +19,11 @@ void setup()
 //
 void draw() 
 {
-  buttonColour = grey; //blue
+  if ( mouseX>quitButtonX && mouseX<quitButtonX+quitButtonWidth && mouseY>quitButtonY && mouseY<quitButtonY+quitButtonHeight ) {
+    buttonColour = red;
+  } else {
+    buttonColour = blue;
+  }
   fill(buttonColour);
   rect( quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight );
   fill(whiteReset);
@@ -36,7 +40,6 @@ void keyPressed()
 //
 void mousePressed() 
 {
-  
 }//End mousePressed
 //
 //End Main Program - "I am 12 steps ahead of you"
