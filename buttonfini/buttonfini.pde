@@ -23,7 +23,9 @@ void draw()
     buttonColour = red;
   } else {
     buttonColour = blue;
-  }
+  }//End Hover-Over Effect
+  println("X-Value", quitButtonX, mouseX, quitButtonX+quitButtonWidth, "/t/t Look at the middle value");
+  println("Y-Value", quitButtonY, mouseY, quitButtonX+quitButtonHeight, "/t/t Look at the middle value");
   fill(buttonColour);
   rect( quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight );
   fill(whiteReset);
