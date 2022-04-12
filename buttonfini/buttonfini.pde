@@ -44,7 +44,7 @@ void keyPressed()
 //
 void mousePressed() 
 {
-  if (  ) exit();
+  if (  mouseX>quitButtonX && mouseX<quitButtonX+quitButtonWidth && mouseY>quitButtonY && mouseY<quitButtonY+quitButtonHeight ) exit();
 }//End mousePressed
 //
 //End Main Program - "I am 12 steps ahead of you"
