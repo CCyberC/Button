@@ -24,6 +24,7 @@ void draw()
   } else {
     buttonColour = blue;
   }//End Hover-Over Effect
+  //Verifying of mouse on the button/Alternate Verification that mouseX&Y is on the button
   println("X-Value", quitButtonX, mouseX, quitButtonX+quitButtonWidth, "/t/t Look at the middle value");
   println("Y-Value", quitButtonY, mouseY, quitButtonX+quitButtonHeight, "/t/t Look at the middle value");
   //
