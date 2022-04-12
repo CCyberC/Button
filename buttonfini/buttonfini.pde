@@ -6,7 +6,7 @@ void setup()
 {
   fullScreen(); // teacher is using size (400, 300);
   displayOrientation();
-  //
+  //Population
   //Note: Variables similar to Face Rect() on Measles
   int smallerDisplayDimension = appHeight;
   int canvasCenter = smallerDisplayDimension*1/2; //thinking experiment
