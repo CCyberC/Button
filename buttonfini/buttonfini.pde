@@ -44,6 +44,7 @@ void keyPressed()
 //
 void mousePressed() 
 {
+  if (  ) exit();
 }//End mousePressed
 //
 //End Main Program - "I am 12 steps ahead of you"
