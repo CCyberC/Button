@@ -25,3 +25,17 @@ void quitButtonDraw()
   rect( quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight );
   fill(whiteReset);
 }//End quitButtonDraw
+//
+void quitButtonkeyPressed() 
+{
+  ///*
+  //Quit KeyBoard Button
+  if ( key=='Q' || key=='q' ) exit();//KeyBoard is separated on key-Variables: key & keyCode
+  //
+  //*/
+}//End quitButtonkeyPressed
+//
+void quitButtonmousePressed() 
+{
+  if (  mouseX>quitButtonX && mouseX<quitButtonX+quitButtonWidth && mouseY>quitButtonY && mouseY<quitButtonY+quitButtonHeight ) exit();
+}//End quitButtonmousePressed
